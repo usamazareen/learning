@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>forms</h1>
+    <form>
+        <fieldset>
+            <legend>Important Info</legend>
+            <label for="fullname">
+                Full Name
+                <input name="fullname" id="fullname" type="text" placeholder="Enter your Full Name" required>
+            </label>
+            <label for="email">
+                <br>
+                Email
+                <input name="email" id="email" type="email" placeholder="Enter your Email " required>
+            </label>
+            <br>
+            <label for="cnic">
+                CNIC 
+                <input name="cnic" id="cnic" maxlength="13" type="text" placeholder="Enter your CNIC" required>
+            </label>
+            <br>
+            <label for="password">
+                Your Password
+                    <input id="password" type="password" placeholder="Enter password">
+                </label>
+                <br>
+                <label for="number">
+                    Your Number
+                        <input id="number" type="number" placeholder="Enter number" required>
+                    </label>
+        </fieldset>
+        <br>
+        <label for="date">
+         Date
+            <input id="date" type="date" placeholder="Enter your Date">
+        </label>
+        <br>
+        <label for="colour">
+         Colour
+            <input id="colour" type="colour" placeholder="Enter Colour ">
+        </label>
+        <br>
+        <label for="search">
+         Search
+            <input id="search" type="search" placeholder="Search">
+        </label>
+        <br>
+        <label for="file">
+        Image
+            <input id="file" type="file" placeholder="Search">
+        </label>
+        <br>
+        <label for="url">
+        Website Url
+            <input id="url" type="url" placeholder="Your website url">
+        </label>
+        <br>
+        <h6>Select Gender</h6>
+        <label for="male">
+                <input id="male" type="radio" name="gender" value="male" checked="checked">Male
+            </label>
+            <label for="female">
+                <input id="female" type="radio" name="gender" value="female">Female
+            </label>
+            <h6>Select Papers</h6>
+            <label for="math">
+                    <input id="math" type="checkbox" name="subject" value="math">Math
+                </label>
+                <label for="science">
+                    <input id="science" type="checkbox" name="subject" value="math">Science
+                </label>
+                <label for="urdu">
+                    <input id="urdu" type="checkbox" name="subject" value="urdu">Urdu
+                </label>
+    <h6>Select Your Country</h6>
+    <select name="country" id="country">
+        <option value="">Select Country</option>
+        <option value="pk">Pakistan</option>
+        <option value="ind">India</option>
+        <option value="afg">Afghanistan</option>
+    </select>
+    <input type="submit">
+    </form>
+</body>
+</html>
